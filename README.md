@@ -26,7 +26,14 @@ JWT_SECRET_KEY = ""
 SECRET_KEY = ""
 ```
 
+db.sqlite3は上げていないので事前にマイグレーションを実施してください
+```bash
+python manage.py makemigrations 
+python manage.py migrate
+```
+
 # Usage
+
 ルート上で次のコマンドを実行すればrunserverが立ち上がります。
 ```
 python manage.py runserver
