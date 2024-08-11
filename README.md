@@ -4,7 +4,10 @@
 </p>
 # jwt_django
 Djangoの認証(login/logout)機能にJWT(Json Web Token)を組み込んだだけです。
-JWTの説明用の資料に対して、説明用のコードとして作成しました
+JWTの説明用の 
+
+[document](https://qiita.com/hsano43/items/509544025882f852aa62)
+に対して、説明用のコードとして作成しました
 
 # Requirement
 * Python 3.12 以上
