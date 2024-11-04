@@ -11,7 +11,7 @@ JWTの説明用の
 
 # Requirement
 * Python 3.12 以上
-* Django 5.0.4以上
+* Django 5.0.4以上　5.1以下 (5.1.1にしたらエラーがでました）
 * ToJWT　2.9.0以上
 
 # Installation
